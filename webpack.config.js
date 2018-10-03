@@ -41,7 +41,19 @@ module.exports = {
                         }
 						}
 				]
-			}
+			},
+            {
+                test: /\.(jpg|png)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            limit: 500000,
+                            outputPath: 'images/'
+                        }
+                    }
+                ]
+            }
 		]
 	},
     plugins: [

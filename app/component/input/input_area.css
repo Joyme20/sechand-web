@@ -1,16 +1,19 @@
 .input_area{
     position: absolute;
     top: 95px;
-    right: 250px;
+    right: 180px;
     font-size: 18px;
     border: 1px solid #8c222c;
     display: flex;
     justify-content: start;
-    padding: 0;
+
 }
 input{
     height: 50px;
     width: 350px;
+    font-size: 25px;
+    color: #555;
+    letter-spacing: 1px;
 }
 button{
     height: 50px;
@@ -19,9 +22,18 @@ button{
     border: none;
     color: #ffffff;
     font-size: 20px;
+    letter-spacing: 5px;
 }
 .wrapper{
     width: 100%;
-    height: 190px;
+    height: 170px;
     background-color: #f2f1ea;
+}
+.bigtitle{
+    font-family: 楷体;
+    font-size: 50px;
+    position: relative;
+    top: 23%;
+    left: 7%
+
 }

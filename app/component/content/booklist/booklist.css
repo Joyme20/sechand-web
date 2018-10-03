@@ -1,0 +1,31 @@
+.listwrapper{
+
+}
+.suggest{
+    height:50px;
+    background-color: #8c222c;
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.list>div{
+    width: 150px;
+    height: 210px;
+    float: left;
+    margin: 3px;
+    color: #666;
+}
+.list>div:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.book{
+    width: 150px;
+    height:150px;
+}
+.desc{
+    position: relative;
+    top: 73%;
+    left: 32%;
+    font-size: 12px;
+}

@@ -1,0 +1,78 @@
+.list{
+	padding: 10px;
+	background-color: #8c222c;
+}
+.item{
+
+	margin-left: 40px;
+}
+.text{
+	color: white;
+}
+.books{
+	padding: 10px 0;
+
+}
+.bookImage{
+	height: 150px;
+}
+.bookImage img{
+	width: 150px;
+	height: 150px;
+	padding: 20px;
+
+}
+.button{
+    float: right;
+}
+
+/*好看的横线*/
+.link{
+	font-size: 16px;
+	color: #2B3F52;
+	line-height: 30px; /*行距*/
+}
+.line span {
+	display: block;      /*设置为块级元素会独占一行形成上下居中的效果*/
+	position: relative;  /*定位横线（当横线的父元素）*/
+	color: #175ca4;      /*居中文字的颜色*/
+	text-align: center;
+}
+.line span:before, .line span:after {
+	content: '';
+	position: absolute;   /*定位背景横线的位置*/
+	/*top: 0%;*/
+	background: #d5d5d5;   /*背景横线颜色*/
+	width: 50%;            /*单侧横线的长度*/
+	height: 2px;
+}
+.line span:before {
+	left: 3%;              /*调整背景横线的左右距离*/
+}
+.line span:after {
+	right: 0;
+}
+
+.bookMessage{
+	padding-left: 150px;
+}
+.title{
+	padding-top: 20px;
+	/*padding-right: 200px;*/
+	width: 300px;
+	color: #175ca4;
+    display: inline-block;
+
+}
+.price{
+    padding-top: 20px;
+    padding-left: 300px;
+    /*float: left;*/
+    display: inline-block;
+    color: #8c222c;
+}
+.describe{
+	padding-top: 15px;
+	font-size: 12px;
+}
+
